@@ -54,5 +54,22 @@ namespace ValueTypes
 
 
         }
+        enum PastryType { Cake, Cupcake, Eclaire, Petitfour, Croissant}
+        [TestMethod]
+        public void Enums()
+        {
+            PastryType myPastry = PastryType.Croissant;
+            PastryType anotherOne = PastryType.Cake;
+        }
+        [TestMethod]
+        public void Structs()
+        {
+            DateTime today = DateTime.Today;
+
+            DateTime birthday = new DateTime();
+
+            DateTime birthday = new DateTime(1800, 7, 23);
+        }
     }
+
 }
