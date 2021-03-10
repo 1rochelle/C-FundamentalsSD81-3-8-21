@@ -16,8 +16,8 @@ namespace Comparison
 
             //Check to see if something is = to something else
             bool equals = age == 41; //equals 
-            Console.WriteLine(equals);
-
+             Console.WriteLine(equals);
+            
             bool userIsTerry = userName == "Terry";
             Console.WriteLine(userIsTerry);
             Console.WriteLine("User is 41:" + equals);
@@ -66,6 +66,19 @@ namespace Comparison
             bool tOrF = trueValue || falseValue;
             bool fOrT = falseValue || falseValue;
             bool fOrF = falseValue || falseValue;
+
+            Console.WriteLine($"True or True { tOrT}");
+            Console.WriteLine($"True or False { tOrF}");
+            Console.WriteLine($"False or True { fOrT}");
+            Console.WriteLine($"False or False {fOrF}");
+
+            //And '&&'
+            bool andValue = greaterThan && orValue;
+
+            bool tAndT = trueValue && trueValue;
+            bool tAndF = trueValue && falseValue;
+            bool fAndT = falseValue && trueValue;
+            bool fAndF = falseValue && falseValue;
         }
     }
 }

@@ -5,11 +5,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{031D7E4B-6587-4B40-9712-BCC1AA437567}</ProjectGuid>
+    <ProjectGuid>{412843F0-F0D1-46DD-85B2-3BA1DFEE793B}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>UnitTestProject1</RootNamespace>
-    <AssemblyName>UnitTestProject1</AssemblyName>
+    <RootNamespace>Conditionals</RootNamespace>
+    <AssemblyName>Conditionals</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -49,8 +49,9 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Operators.cs" />
+    <Compile Include="IfElse.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Switch.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

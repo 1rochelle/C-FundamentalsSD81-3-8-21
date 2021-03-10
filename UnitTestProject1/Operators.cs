@@ -4,7 +4,7 @@ using System;
 namespace Arithmetic
 {
     [TestClass]
-    public class UnitTest1
+    public class Operators
     {
         [TestMethod]
         public void SimpleOperators()
