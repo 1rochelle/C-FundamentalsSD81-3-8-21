@@ -70,7 +70,7 @@ namespace ReferenceTypes
             string valueSeven = keyAndValue[7];
             Console.WriteLine(valueSeven);
 
-            SortedList<int, string> sortedKeyandValue = new SortedList<int, string.>();
+            SortedList<int, string> sortedKeyandValue = new SortedList<int, string>();
             HashSet<int> uniqueList = new HashSet<int>();
             Stack<string> lastInFirstOut = new Stack<string>();
         }

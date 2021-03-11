@@ -5,11 +5,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{412843F0-F0D1-46DD-85B2-3BA1DFEE793B}</ProjectGuid>
+    <ProjectGuid>{5A0211D1-7381-4854-8007-0C0A9E0304E7}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Conditionals</RootNamespace>
-    <AssemblyName>Conditionals</AssemblyName>
+    <RootNamespace>InheritanceClasses</RootNamespace>
+    <AssemblyName>InheritanceClasses</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -49,10 +49,11 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="IfElse.cs" />
+    <Compile Include="Animals\Animals.cs" />
+    <Compile Include="Animals\Cats.cs" />
+    <Compile Include="House.cs" />
+    <Compile Include="Kitchen.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Switch.cs" />
-    <Compile Include="Ternary.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

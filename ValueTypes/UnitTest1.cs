@@ -66,8 +66,6 @@ namespace ValueTypes
         {
             DateTime today = DateTime.Today;
 
-            DateTime birthday = new DateTime();
-
             DateTime birthday = new DateTime(1800, 7, 23);
         }
     }
