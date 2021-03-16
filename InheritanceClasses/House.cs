@@ -10,6 +10,7 @@ namespace InheritanceClasses
     public enum FloorType { Wood, Carpet, Tile, Vinyl }
     public class House
     {
+        public FloorType Flooring { get; set; }
         public int NumberOfBedrooms { get; set; }
         public int SquareFeet { get; set; }
         public bool DoesItHaveABasement { get; set; }
